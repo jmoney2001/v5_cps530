@@ -25,9 +25,13 @@ function Page6() {
                 <h1>Page6</h1>
             </Typography>
             <Typography variant="h5" color='purple'>
-            Brian
-            Jacob Rokhvarg 500943379
-            Renz
+            Brian --> FrontEnd programming
+            </Typography>
+            <Typography variant="h5" color='purple'>
+            Jacob Rokhvarg 500943379 --> Deploying Web Application to Heroku (our chosen cloud platform), FrontEnd programming
+            </Typography>
+            <Typography variant="h5" color='purple'>
+            Renz --> BackEnd programming
             </Typography>
             </ThemeProvider>
         </div>
