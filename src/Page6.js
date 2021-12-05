@@ -24,6 +24,11 @@ function Page6() {
             <Typography color='purple'>
                 <h1>Page6</h1>
             </Typography>
+            <Typography variant="h5" color='purple'>
+            Brian
+            Jacob Rokhvarg 500943379
+            Renz
+            </Typography>
             </ThemeProvider>
         </div>
     );
