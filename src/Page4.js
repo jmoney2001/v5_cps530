@@ -3,12 +3,13 @@ import { makeStyles } from "@mui/styles";
 import { Typography } from "@mui/material";
 import "./App.css";
 import Grid from "./Grid";
-import SignalWifi0BarIcon from "@mui/icons-material/SignalWifi0Bar";
+/*import SignalWifi0BarIcon from "@mui/icons-material/SignalWifi0Bar";
 import SignalWifi1BarIcon from "@mui/icons-material/SignalWifi1Bar";
 import SignalWifi1BarLockIcon from "@mui/icons-material/SignalWifi1BarLock";
 import SignalWifi4BarIcon from "@mui/icons-material/SignalWifi4Bar";
 import SignalWifiOffIcon from "@mui/icons-material/SignalWifiOff";
 import SignalWifiStatusbarConnectedNoInternet4Icon from "@mui/icons-material/SignalWifiStatusbarConnectedNoInternet4";
+*/
 
 const theme = createTheme({
   palette: {
@@ -79,31 +80,32 @@ function Page4() {
         </div>
         <div className={`${classes.grid} ${classes.bigSpace}`}>
           <Grid
-            icon={
+            /*icon={
               <SignalWifi0BarIcon
                 style={{ fill: "#ECC19C", height: "125", width: "125" }}
               />
-            }
+            }*/
             title="No Wi-fi Signal"
             buttonTitle="Further Explanation"
             popUp="This indicates that this wi-fi network exists, but currently there isn't really any signal strength that one can connect to."
           />
           <Grid
+          /*
             icon={
               <SignalWifi1BarIcon
                 style={{ fill: "#1E847F", height: "125", width: "125" }}
               />
-            }
+            }*/
             title="Low Wi-fi Signal"
             buttonTitle="Further Explanation"
             popUp="Wi-fi signal strength can vary widely... This is a case of a signal that tends towards the weaker side. Weaker signal strengths tend to result in more unstable connections."
           />
           <Grid
-            icon={
+            /*icon={
               <SignalWifi1BarLockIcon
                 style={{ fill: "#000000", height: "125", width: "125" }}
               />
-            }
+            }*/
             title="Wi-fi Has Password"
             buttonTitle="Further Explanation"
             popUp="This means that there is a wi-fi connection you have not connected to yet, and there is a password on it. To connect to it you must enter the correct password or else you cannot access the wi-fi."
@@ -111,31 +113,31 @@ function Page4() {
         </div>
         <div className={`${classes.grid} ${classes.littleSpace}`}>
           <Grid
-            icon={
+            /*icon={
               <SignalWifi4BarIcon
                 style={{ fill: "#D9A5B3", height: "125", width: "125" }}
               />
-            }
+            }*/
             title="Great Wi-fi Signal"
             buttonTitle="Further Explanation"
             popUp="Wi-fi signal strength can vary widely... This is a case of a signal that tends towards the stronger side. Stronger signal strengths tend to result in more stable connections."
           />
           <Grid
-            icon={
+            /*icon={
               <SignalWifiOffIcon
                 style={{ fill: "#1868AE", height: "125", width: "125" }}
               />
-            }
+            }*/
             title="Wi-fi Turned Off"
             buttonTitle="Further Explanation"
             popUp="This usually means that the wi-fi feature on your device is turned off... turn it back on to start connecting to wi-fi."
           />
           <Grid
-            icon={
+            /*icon={
               <SignalWifiStatusbarConnectedNoInternet4Icon
                 style={{ fill: "#C6D7EB", height: "125", width: "125" }}
               />
-            }
+            }*/
             title="Wi-fi, But No Internet"
             buttonTitle="Further Explanation"
             popUp="This indicates that there is a working wi-fi signal coming from the router, but the internet that the router is connected to does not work. So one can hypothetically connect to this wi-fi network, but cannot access the internet."
