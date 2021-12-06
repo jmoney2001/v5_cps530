@@ -3,13 +3,13 @@ import { makeStyles } from "@mui/styles";
 import { Typography } from "@mui/material";
 import "./App.css";
 import Grid from "./Grid";
-import SignalWifi0BarIcon from "@mui/icons-material/SignalWifi0Bar";
+/*import SignalWifi0BarIcon from "@mui/icons-material/SignalWifi0Bar";
 import SignalWifi1BarIcon from "@mui/icons-material/SignalWifi1Bar";
 import SignalWifi1BarLockIcon from "@mui/icons-material/SignalWifi1BarLock";
 import SignalWifi4BarIcon from "@mui/icons-material/SignalWifi4Bar";
 import SignalWifiOffIcon from "@mui/icons-material/SignalWifiOff";
 import SignalWifiStatusbarConnectedNoInternet4Icon from "@mui/icons-material/SignalWifiStatusbarConnectedNoInternet4";
-
+*/
 
 const theme = createTheme({
   palette: {
