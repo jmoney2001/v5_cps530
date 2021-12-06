@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 
-import express_logo from './images/express_logo.png';
 import node_logo from './images/node_logo.png';
 import react_logo from './images/react_logo.jpg';
 
@@ -25,7 +24,6 @@ const theme = createTheme({
 function Page2() {
     return (
     <div>
-        <img src={express_logo} alt="express_logo.png" width="375" height="200"/>
         <img src={node_logo} alt="node_logo.png" width="375" height="200"/>
         <img src={react_logo} alt="react_logo.jpg" width="375" height="200"/>
         
@@ -37,7 +35,7 @@ function Page2() {
         Our Decision
         </Typography>
         <Typography variant="h6" marginLeft={15} marginRight={15} marginBottom={10} color='purple'>
-        We have chosen to go with react for our front-end, and express for our back-end, while choosing Node.js to combine the two.
+        We have chosen to go with react for our front-end, and Node.js for our back-end.
         </Typography>
         <Typography variant="h5" color='purple'>
         Front End
