@@ -54,12 +54,5 @@ function Page2() {
     );
 }
 
-export default Page2;
-
-        </Typography>
-        </ThemeProvider>
-    </div>
-    );
-}
 
 export default Page2;
