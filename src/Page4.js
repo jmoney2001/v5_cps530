@@ -101,11 +101,12 @@ function Page4() {
             popUp="Wi-fi signal strength can vary widely... This is a case of a signal that tends towards the weaker side. Weaker signal strengths tend to result in more unstable connections."
           />
           <Grid
+          /*
             icon={
               <SignalWifi2BarIcon
                 style={{ fill: "#000000", height: "125", width: "125" }}
               />
-            }
+            }*/
             title="Decent Wi-fi Signal"
             buttonTitle="Further Explanation"
             popUp="Wi-fi signal strength can vary widely... This is a case of a signal that is pretty average. Probably far away from router but should work nonetheless."
