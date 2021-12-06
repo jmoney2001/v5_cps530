@@ -47,7 +47,15 @@ function Page2() {
         Back End
         </Typography>
         <Typography variant="h6" marginLeft={15} marginRight={15} marginBottom={10} color='purple'>
-        The beauty of Express.js is the fact that it can be so easily integrated with Node.js. For this reason, Express is arguably the most common back-end framework when it comes to full-stack development, especially when Node.js is involved. The reason why Express.js is so popular is that it is in JavaScript! This means that you do not have to use two different programming languages for your respective front-end and back-ends... Both can be written in the same language!
+         The beauty of Node.js is that it allows you to execute JavaScript code without using a browser. As a side benefit, because it is so ubiquitously used within the industry, having a solid grasp on Node.js will open so many more opportunities. It is very fast and has great community support.
+        </Typography>
+        </ThemeProvider>
+    </div>
+    );
+}
+
+export default Page2;
+
         </Typography>
         </ThemeProvider>
     </div>
