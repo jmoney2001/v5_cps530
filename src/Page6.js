@@ -29,7 +29,6 @@ function Page6() {
                 <h3>Credits:</h3>
                 <p>- This website was used for colour combination inspirations and ideas - "https://99designs.ca/blog/creative-inspiration/color-combinations/"</p>
             </Typography>
-            </ThemeProvider>
         </div>
     );
 }
