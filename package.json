@@ -6,7 +6,8 @@
     "node": "16.x"
   },
   "dependencies": {
-    "@emotion/styled": "^11.6.0",    
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.2.0",
     "@mui/material": "^5.2.2",
     "@mui/styles": "^5.2.2",
     "react": "^17.0.2",
