@@ -57,13 +57,13 @@ function Page2() {
             2. Click the download button with whatever operating system you are
             on and proceed with the installation
           </p>
-          /*<br/>*/
+          <br/>
           <h3>Setting Up React</h3>
           <p>1. To set up React, just open Visual Studio Code with a terminal open (PowerShell or Bash for example)</p>
           <p>2. Be in the directory where you want your React Application to be in</p>
           <p>3. Then type in the terminal "npx create-react-app my_app" *you can change my_app into any name you want your application to be*</p>
           <p>4. Once everything is done installing, type in the terminal "npm start". This then should open up your React application in your browser in "http://localhost:3000"</p>
-          /*<br/>*/
+          <br/>
         </Typography>
       </ThemeProvider>
     </div>
