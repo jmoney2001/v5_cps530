@@ -19,19 +19,15 @@ const theme = createTheme({
 
 function Page6() {
     return (
-        <div>
-            <ThemeProvider theme={theme}>
-            <Typography color='purple'>
-                <h1>Page6</h1>
-            </Typography>
-            <Typography variant="h5" color='purple'>
-            Brian --> FrontEnd programming
-            </Typography>
-            <Typography variant="h5" color='purple'>
-            Jacob Rokhvarg 500943379 --> Deploying Web Application to Heroku (our chosen cloud platform), FrontEnd programming
-            </Typography>
-            <Typography variant="h5" color='purple'>
-            Renz --> BackEnd programming
+        <div align="left">
+            <Typography color='purple' margin={10}>
+                <h3>Team Members:</h3>
+                <p>Brian Baek (500824663): Front End (React + Material UI)</p>
+                <p>Jacob Rokhvarg (500943379): Back End (Node.js + Heroku deployment to the web)</p>
+                <p>Renz Evangelista (500900222): Back End (Node.js + Heroku deployment to the web)</p>
+                <br/>
+                <h3>Credits:</h3>
+                <p>- This website was used for colour combination inspirations and ideas - "https://99designs.ca/blog/creative-inspiration/color-combinations/"</p>
             </Typography>
             </ThemeProvider>
         </div>
