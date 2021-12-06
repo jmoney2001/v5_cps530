@@ -58,9 +58,8 @@ function Page5() {
           </h3>
           <br />
           <h3>
-            - We do not regret our choice of frameworks at all. React, Express,
-            Node are very popular within the industry, so this was a great
-            opportunity to really practice these skills.
+            - We do not regret our choice of frameworks at all. React/Node are very popular within the industry,
+              so this was a great opportunity to really practice these skills.
           </h3>
         </Typography>
       </ThemeProvider>
